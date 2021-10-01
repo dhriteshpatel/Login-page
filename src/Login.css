@@ -1,0 +1,48 @@
+.form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid green;
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 0 red;
+  padding: 10vh;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 1vh;
+}
+.mybtn {
+  width: 51vw;
+  padding: 1vh;
+  background-color: green;
+  color: white;
+  font-size: 2vh;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  width: 50vw;
+  padding: 1vh;
+  outline: none;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 3vh;
+}
+
+.login_heading {
+  color: green;
+  font-size: 7vh;
+}
